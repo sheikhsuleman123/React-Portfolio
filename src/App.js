@@ -4,6 +4,8 @@ import Services from './Components/Pages/Services';
 import About from './Components/Pages/About';
 import Portfolio from './Components/Pages/Portfolio';
 import Team from './Components/Pages/Team';
+import Client from './Components/Pages/Clients';
+
 import Navbar from './Components/Navbar/Navbar';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -62,8 +64,9 @@ class App extends Component {
       <Home />
       <Services />
       <Portfolio />
-      <Team />
       <About />
+      <Team />
+      <Client />
         
       
     </Navbar>
