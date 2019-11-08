@@ -6,6 +6,7 @@ import Portfolio from './Components/Pages/Portfolio';
 import Team from './Components/Pages/Team';
 import Client from './Components/Pages/Clients';
 import Contact from './Components/Pages/Contact';
+import Footer from './Components/Pages/Footer';
 
 import Navbar from './Components/Navbar/Navbar';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
@@ -69,7 +70,7 @@ class App extends Component {
       <Team />
       <Client />
       <Contact />
-      
+      <Footer />
     </Navbar>
     </Router>
   );
